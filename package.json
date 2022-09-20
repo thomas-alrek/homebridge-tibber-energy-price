@@ -1,0 +1,19 @@
+{
+  "name": "homebridge-tibber-energy-price",
+  "version": "0.0.1",
+  "description": "Tibber energy price as lux",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": {
+    "name": "Thomas Alrek",
+    "email": "thomas@alrek.no"
+  },
+  "dependencies": {
+    "tibber-api": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=10.17.0",
+    "homebridge": ">=0.4.8"
+  }
+}
