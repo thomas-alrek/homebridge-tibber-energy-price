@@ -1,7 +1,8 @@
 {
   "name": "homebridge-tibber-energy-price",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Tibber energy price as lux",
+  "main": "index.js",
   "keywords": [
     "homebridge-plugin"
   ],
@@ -15,5 +16,6 @@
   "engines": {
     "node": ">=10.17.0",
     "homebridge": ">=0.4.8"
-  }
+  },
+  "type": "module"
 }
