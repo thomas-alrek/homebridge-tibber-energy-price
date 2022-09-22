@@ -1,0 +1,26 @@
+{
+    "pluginAlias": "TibberEnergyPrice",
+    "pluginType": "accessory",
+    "singular": false,
+    "headerDisplay": "You need to obtain your personal token from [https://developer.tibber.com/](https://developer.tibber.com/)",
+    "footerDisplay": "",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "apiToken": {
+                "title": "Tibber API token",
+                "type": "string",
+                "required": true,
+                "default": "",
+                "description": ""
+            },
+            "homeId": {
+                "title": "The unique ID of the home you want to monitor",
+                "type": "string",
+                "required": true,
+                "default": "",
+                "description": ""
+            }
+        }
+    }
+}
